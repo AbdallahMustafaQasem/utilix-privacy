@@ -18,14 +18,15 @@
 </head>
 <body>
 <h1>Utilix Privacy Policy</h1>
-<p class="meta">Effective date: 6 October 2026 · App: Utilix (package <code>com.amq.tools</code>) · Developer: Abdallah Qasem</p>
+<p class="meta">Effective date: 16 October 2026 · App: Utilix (package <code>com.amq.tools</code>) · Developer: Abdallah Qasem</p>
 
-<p>Utilix is a collection of offline utility tools (calculators, converters, scanners, sensors, and more). This policy explains what information the app uses, what stays on your device, and what is shared with third parties such as the ad provider.</p>
+<p>Utilix is a collection of offline utility tools (calculators, converters, scanners, sensors, games, device tests, and more). This policy explains what information the app uses, what stays on your device, and what is shared with third parties such as Google (advertising and anonymous usage statistics).</p>
 
 <h2>1. Summary</h2>
 <ul>
-  <li>No account, no sign-up, and no analytics SDK of our own.</li>
+  <li>No account and no sign-up.</li>
   <li>Your notes, files, scans, recordings, checklists, invoices, and settings stay on your device. We do not receive them.</li>
+  <li>The app collects anonymous usage statistics with Google Firebase Analytics (for example, which tools are opened and the app language) to improve the app. You can turn this off at any time in Settings, Usage statistics (see section 7).</li>
   <li>The app shows ads provided by Google AdMob. AdMob may collect device identifiers (such as the advertising ID) and usage data to serve and measure ads. You can manage your choices in the app (Settings) and in your Google settings.</li>
   <li>A few tools make network requests to public services to fetch live data (see section 4).</li>
 </ul>
@@ -44,6 +45,9 @@
 <tr><td>Speed test</td><td>Downloads and uploads test data to Cloudflare's speed test endpoint to measure your connection.</td></tr>
 <tr><td>My IP address</td><td>Asks public services (such as ipify and ipwho.is) for your public IP and approximate location details.</td></tr>
 <tr><td>Local features</td><td>File transfer, music group, IP CCTV, walkie talkie, and WiFi calls communicate directly between devices on the same local network. Their content does not pass through our servers.</td></tr>
+<tr><td>Rewarded video (optional)</td><td>If you choose "Remove ads for 1 hour" in Settings, a rewarded ad from Google AdMob is shown. The ad-free time you earn is stored only on your device.</td></tr>
+<tr><td>Rate the app</td><td>The rating sheet is provided by Google Play (in-app review). Utilix does not receive your rating or any of your Google account details.</td></tr>
+<tr><td>Device info, battery info, App Manager, Phone Test</td><td>Read information about your device, battery and installed launcher apps and run hardware tests entirely on your device. Nothing is uploaded. APK backups are saved only where you choose to save them.</td></tr>
 <tr><td>Document scanner</td><td>Uses Google Play services' ML Kit document scanner on your device. Text recognition (OCR) runs on your device.</td></tr>
 </table>
 
@@ -55,6 +59,7 @@
 <tr><td>Location</td><td>Speedometer, GPS info, altitude, share location, and Bluetooth/Wi-Fi scanning on some Android versions.</td></tr>
 <tr><td>Bluetooth and nearby devices</td><td>Bluetooth controller and local device discovery.</td></tr>
 <tr><td>Physical activity</td><td>Step counter.</td></tr>
+<tr><td>Installed apps (launcher apps only)</td><td>App Manager lists the apps that have a launcher icon, with their size and requested permissions, on your device only.</td></tr>
 <tr><td>Phone state</td><td>Showing mobile signal strength in the signal tool.</td></tr>
 <tr><td>Notifications</td><td>Checklist reminders and background activity notices.</td></tr>
 <tr><td>Infrared</td><td>IR remote (only on devices with an IR blaster).</td></tr>
@@ -63,29 +68,34 @@
 <p>Each permission is requested only when you open a tool that needs it. Sensor, camera, and microphone data is processed on your device and is not sent to us.</p>
 
 <h2>6. Advertising</h2>
-<p>Utilix uses Google AdMob to display banner and interstitial ads. AdMob may collect and use information such as your device's advertising ID, IP address, device and app information, and ad interaction data to show ads and measure their performance. In the European Economic Area, the United Kingdom, and where required, the app shows a consent form (Google's User Messaging Platform) before personalised ads are requested, and you can change your choice later from Settings. You can also reset or opt out of the advertising ID in your Android settings (Settings, Google, Ads). See <a href="https://policies.google.com/technologies/ads">how Google uses data from ads</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p>Utilix uses Google AdMob to display banner, native, interstitial, and optional rewarded ads. AdMob may collect and use information such as your device's advertising ID, IP address, device and app information, and ad interaction data to show ads and measure their performance. In the European Economic Area, the United Kingdom, and where required, the app shows a consent form (Google's User Messaging Platform) before personalised ads are requested, and you can change your choice later from Settings. You can also reset or opt out of the advertising ID in your Android settings (Settings, Google, Ads). See <a href="https://policies.google.com/technologies/ads">how Google uses data from ads</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-<h2>7. Children</h2>
+<h2>7. Anonymous usage statistics</h2>
+<p>Utilix uses Google Firebase Analytics (provided by Google LLC) to understand how the app is used so that we can improve it. The data is anonymous and is not linked to your name, email, or account (we do not have accounts). It includes: a random app-instance identifier, the events "app opened", "tool opened" (the id of the tool, for example "calculator"), "language changed" and "search", general device information such as device model, Android version, app version, language, and approximate country, and, where available, the advertising ID. We never send your notes, files, scans, recordings, text, locations, or other content. Google processes this data on our behalf under its terms for Firebase (<a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>).</p>
+<p>Statistics are collected only if you leave the switch on at Settings, Usage statistics. In the European Economic Area, the United Kingdom, and where required, collection starts only after you give consent in the consent form. You can turn statistics off at any time and the app will stop sending them. We do not sell this data and do not use it for advertising.</p>
+
+<h2>8. Children</h2>
 <p>Utilix is a general-audience utility app and is not directed to children under 13. We do not knowingly collect personal information from children.</p>
 
-<h2>8. Data security and retention</h2>
-<p>Local data remains in the app's private storage on your device. File Locker encrypts files with AES-256 using a key derived from your password; we cannot recover a forgotten password. Because we do not collect your data, we have no server-side retention of it. Data held by third parties such as Google AdMob is governed by their policies.</p>
+<h2>9. Data security and retention</h2>
+<p>Local data remains in the app's private storage on your device. File Locker encrypts files with AES-256 using a key derived from your password; we cannot recover a forgotten password. Because we do not collect your content, we have no server-side retention of it. Anonymous statistics are kept by Google Firebase according to its data retention settings. Data held by third parties such as Google AdMob and Firebase Analytics is governed by their policies.</p>
 
-<h2>9. Your choices</h2>
+<h2>10. Your choices</h2>
 <ul>
   <li>Deny or revoke any permission in Android settings; related tools will simply not work.</li>
   <li>Clear local data from Android Settings, Apps, Utilix, Storage, or by uninstalling.</li>
   <li>Change your ad consent from Settings inside the app (where available) and your Android advertising ID settings.</li>
+  <li>Turn anonymous usage statistics off at any time in Settings, Usage statistics.</li>
 </ul>
 
-<h2>10. Changes to this policy</h2>
+<h2>11. Changes to this policy</h2>
 <p>We may update this policy when the app changes. The effective date above shows the latest version.</p>
 
-<h2>11. Contact</h2>
+<h2>12. Contact</h2>
 <p>Questions about this policy: open an issue or contact the developer through the GitHub profile <a href="https://github.com/AbdallahMustafaQasem">github.com/AbdallahMustafaQasem</a>.</p>
 
 <hr>
 <h2 dir="rtl" lang="ar">ملخص بالعربية</h2>
-<p dir="rtl" lang="ar">تطبيق Utilix مجموعة أدوات تعمل دون إنترنت في معظمها. لا نطلب حسابًا ولا نجمع بياناتك الشخصية، وتبقى ملاحظاتك وملفاتك وتسجيلاتك على جهازك. يعرض التطبيق إعلانات من Google AdMob وقد تجمع Google معرّف الإعلانات وبيانات الاستخدام لعرض الإعلانات؛ ويمكنك إدارة موافقتك من الإعدادات ومن إعدادات أندرويد. تستخدم بعض الأدوات الإنترنت لجلب أسعار العملات والمعادن والعملات الرقمية واختبار السرعة. تُطلب الأذونات (الكاميرا، الميكروفون، الموقع، وغيرها) فقط عند فتح أداة تحتاجها، وتُعالج البيانات على جهازك.</p>
+<p dir="rtl" lang="ar">تطبيق Utilix مجموعة أدوات تعمل دون إنترنت في معظمها. لا نطلب حسابًا ولا نجمع بياناتك الشخصية، وتبقى ملاحظاتك وملفاتك وتسجيلاتك على جهازك. يعرض التطبيق إعلانات من Google AdMob، منها فيديو مكافأة اختياري لإخفاء الإعلانات ساعة، وقد تجمع Google معرّف الإعلانات وبيانات الاستخدام لعرض الإعلانات؛ ويمكنك إدارة موافقتك من الإعدادات ومن إعدادات أندرويد. يجمع التطبيق إحصاءات استخدام مجهولة عبر Google Firebase Analytics (مثل الأدوات التي تُفتح ولغة التطبيق) لتحسينه، ولا يرسل أي محتوى من جهازك، ويمكنك إيقافها في الإعدادات، استخدام الإحصاءات. تستخدم بعض الأدوات الإنترنت لجلب أسعار العملات والمعادن والعملات الرقمية واختبار السرعة. تُطلب الأذونات (الكاميرا، الميكروفون، الموقع، وغيرها) فقط عند فتح أداة تحتاجها، وتُعالج البيانات على جهازك.</p>
 </body>
 </html>
